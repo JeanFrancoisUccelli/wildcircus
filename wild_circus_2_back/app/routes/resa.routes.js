@@ -15,16 +15,12 @@ const models = require("../models");
 
 module.exports = (app) => {
   app.get("/resas", (req, res) => {
-    models.Resa.findAll()
+    models.resa.findAll()
         // { include: [models.Cook, models.Feedback], })
-        .then((resas) => res.json(resas));
+        .then((resa) => res.json(resa));
   });
 
   app.post("/resas", (req, res) => {
-    models.Resa.create({
-      name: "req.body",
-      date: "req.body",
-      nbPlace: req.body,
-    }).then((resas) => res.json(resas));
+    models.resa.create(req.body).then((resa) => res.json(resa));
   });
 };

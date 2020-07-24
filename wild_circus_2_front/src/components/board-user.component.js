@@ -93,6 +93,7 @@ export default class BoardUser extends Component {
               />
               <div class="card-body"><br />
                 <h5 class="card-title">Find us !</h5>
+                <p></p>
                 <p class="card-text">See on a map where you could find us</p>
                 <a href="Mapping" class="btn btn-primary">Go to Map page</a>
               </div>

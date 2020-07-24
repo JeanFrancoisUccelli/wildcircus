@@ -38,7 +38,7 @@ const Mapping = () => {
   return (
     <Map
       center={[49, 2]}
-      zoom={2}
+      zoom={4}
       style={{
         height: "400px",
         width: "100%",
@@ -58,7 +58,7 @@ const Mapping = () => {
             <Popup>
               <h4>{e.name}</h4>
               <h5>Voulez-vous reserver ici ?</h5>
-              <a href="/Basket" class="btn btn-primary">
+              <a href="/Resa" class="btn btn-primary">
                 Oui !
               </a>
             </Popup>

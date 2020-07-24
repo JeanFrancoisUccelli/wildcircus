@@ -17,6 +17,7 @@ import Mapping from "./components/Mapping";
 import Perf from "./components/Perf";
 import Prices from "./components/Prices";
 import Basket from "./components/Basket";
+import Resa from "./components/Resa";
 import MovieCarousel from './components/artists/Artist';
 
 class App extends Component {
@@ -169,6 +170,7 @@ class App extends Component {
             <Route path="/artists/Artist" component={MovieCarousel} />
             <Route path="/prices" component={Prices} />
             <Route path="/basket" component={Basket} />
+            <Route path="/resa" component={Resa} />
             <Route path="/mapping" component={Mapping} />
             <Route path="/aboutus" component={AboutUs} />
             <Route path="/mod" component={BoardModerator} />
